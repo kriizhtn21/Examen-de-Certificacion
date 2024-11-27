@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Certificacion</title>
+</head>
+<body>
+
+    <nav class="row navegacion">
+        <div class="row titular">
+            <h1 class="titulo">Libroteca</h1>
+            <img class="logo" src="/img/logo.png" alt="">
+        </div>
+
+        <div class="botones">
+            <button onclick="hola()" class="sesion">Inicio de Sesión</button>
+            <button   class="registro">Registro</button>
+        </div>
+    </nav>
+    <div class="linea"></div>
+
+    <article class="row margen">
+        <section class="col-2 row centro"><img src="/img/libro.png" alt=""> <h3>Elige Tu Libro</h3></section>
+        <section class="col-2 row centro"><img src="/img/check.png" alt=""> <h3>Revisa Disponibilidad</h3></section>
+        <section class="col-2 row centro"><img src="/img/separalo.png" alt=""> <h3>Sepáralo</h3></section>
+        <section class="col-2 row centro"><img src="/img/shipping.png" alt=""> <h3>Recíbelo</h3></section>
+    </article>
+
+    <article class="celeste">
+        <section class="row links">
+            <a id="ficcion" href="#">Ficción</a>
+            <a id="historicos" href="#">Históricos</a>
+            <a id="tecnologia" href="#">Tecnología</a>
+            <a id="autoayuda" href="#">Autoayuda</a>
+            <a id="poesia" href="#">Poesía</a>
+        </section>
+    </article>
+
+    <article>
+        <section class="plomo">
+            <h1 id="libros" class="libros">Todos los Libros</h1>
+        </section>
+    </article>
+
+
+    <main>
+        <article class="row ">
+            <section class="col-1"></section>
+            <section class="col-1"> <img class="imagenLibro" src="/img/cien.jpg" alt="">
+            <p class="nombreLibros">Cien Años de Soledad</p>
+            <p class="nombreAutor">Gabriel Garcia Marquez</p>
+            <div class="fondo">
+                <button onclick="noDisponible()" id="btn" class="rentar">Rentar</button>
+
+            </div>
+    
+        </section>
+
+
+            <section class="col-1"> 
+            <img class="imagenLibro" src="/img/rayuela.jpg" alt="">
+            <p class="nombreLibros">Rayuela</p>
+            <p class="nombreAutor">Julio Cortazar</p>
+            <div class="fondo">
+                <button onclick="noDisponible2()" id="btn-2" class="rentar">Rentar</button>
+
+
+            </div>
+
+
+        </section>
+
+
+            <section class="col-1"> 
+                <img class="imagenLibro" src="/img/travesuras.jpg" alt="">
+                <p class="nombreLibros">Travesuras de la Niña Mala </p>
+                <p class="nombreAutor">Mario Vargas Llosa</p>
+                <div class="fondo">
+                    <button onclick="noDisponible3()" id="btn-3" class="rentar">Rentar</button>
+
+
+                </div>
+
+            </section>
+
+            <section class="col-1"></section>
+        </article>
+    </main>
+    
+
+    <footer>
+        <h4 class="futer"> Todos los derechos reservados. Libroteca</h4> 
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
